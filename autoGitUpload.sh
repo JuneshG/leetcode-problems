@@ -17,8 +17,8 @@ cd "$directory" || { echo "Error: Directory not found."; exit 1; }
 #Add all changes
 git add .
 
-git config --global juneshgautam5@gmail.com
-git config --global JuneshG
+git config --global user.email juneshgautam5@gmail.com
+git config --global user.name JuneshG
 
 #Commit changes with a default commit message
 git commit -m "Automated commit"
